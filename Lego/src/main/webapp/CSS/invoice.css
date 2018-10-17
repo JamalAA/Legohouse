@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-10-2018, 14:30:20
+    Author     : jamal_ahmed
+*/
+
+.bg { 
+    background:
+            /* top, transparent black, faked with gradient */ 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+            ), url(http://getwallpapers.com/wallpaper/full/7/b/a/128376.jpg);
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
